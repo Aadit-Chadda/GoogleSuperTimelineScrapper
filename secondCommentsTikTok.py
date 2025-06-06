@@ -148,17 +148,6 @@ posts = [
     "https://www.tiktok.com/@goodmorningmaryjane/video/7219357608791067946",
     "https://www.tiktok.com/@jimflorentinecomedy/video/7220540999431490821",
     "https://www.tiktok.com/@real.benshapiro/video/7217948355270397226",
-    "https://www.tiktok.com/@real.benshapiro/video/7217948355270397226",
-    "https://www.tiktok.com/@itvnews/video/7221891616083119386",
-    "https://www.tiktok.com/@hungrymanbutteranch/video/7219118527607983406",
-    "https://www.tiktok.com/@kordellsorensen/video/7220463810287521066",
-    "https://www.tiktok.com/@real.benshapiro/video/7221956142820265258",
-    "https://www.tiktok.com/@lesbianspeaking/video/7218004751458438446",
-    "https://www.tiktok.com/@copenhagenbandit420/video/7221005106504813867",
-    "https://www.tiktok.com/@chazonator/video/7219052739345567018",
-    "https://www.tiktok.com/@backseatgyno/video/7218956872135494958",
-    "https://www.tiktok.com/@jpwaterwalker/video/7219397418968681734?lang=ceb-PH",
-    "https://www.tiktok.com/@havenothadmycoffee/video/7219486988154735918"
 ]
 
 get_comments(posts)
