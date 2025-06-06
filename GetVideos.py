@@ -59,7 +59,7 @@ def get_all_links(uri):
             # stopping the code after reaching page 20. P.S. getting 210 links from each search (approx)
             # another measure to prevent bot recognition by google
             flag += 1
-            if flag >= 2:
+            if flag >= 4:
                 break
 
             continue

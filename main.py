@@ -14,8 +14,7 @@ print("\n\n\n\n\n")
 for link in links:
     print(link)
 
-with open('output.json', 'w', encoding='utf-8') as file:
-    json.dump({}, file)
+open('output.json', 'w').close()
 
 get_comments(links)
 

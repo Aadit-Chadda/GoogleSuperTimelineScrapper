@@ -69,8 +69,10 @@ def parser(data, comments):
 
         if time == "":
             time = utc.now()
+            time = str(time)
         else:
             time = utc.fromtimestamp(time)
+            time = str(time)
 
         if title == "":
             title = "Error couldn't be retrieved"
@@ -110,7 +112,7 @@ def get_comments(posts):
         post_id = post_url.split("/")[-1]
 
         comments = []
-        comments.append({'post_url': post_url})
+        # comments.append({'post_url': post_url})
 
         curs = 0
 
@@ -127,10 +129,10 @@ def get_comments(posts):
                 print('no more data available')
                 break
 
-    print()
+        print()
 
-    with open('output.json', 'a', encoding='utf-8') as f:
-        json.dump(comments, f, ensure_ascii=False, indent=4)
+        with open('output.json', 'a', encoding='utf-8') as f:
+            json.dump(comments, f, ensure_ascii=False, indent=4)
 
     print("\ndata has been saved into a JSON file")
 
