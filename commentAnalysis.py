@@ -1,6 +1,8 @@
 import os
+import time
 import json
 import csv
+import pandas as pd
 from openai import OpenAI
 from secret_pass import secret_key
 
@@ -29,10 +31,47 @@ for comment in comments:
 
     commentsData.append(data)
 
+
+def write_num_to_csv(number, filename='analysisList.csv'):
+    with open(filename, mode='a', newline='', encoding='utf-8') as file:
+        writer = csv.writer(file)
+        writer.writerow([number])
+
+
+polarity = []
+
 flag = 0
 for comment in commentsData:
     client = OpenAI(api_key=secret_key)
-    flag += 1
-    print(comment)
 
-print(flag)
+    response = client.responses.create(
+        model="gpt-4.1-nano",
+        input=[
+            {
+                'role': 'user',
+                'content': json.dumps(comment)
+            }
+        ]
+    )
+
+    analysis = response.output_text
+    polarity.append(analysis)
+    write_num_to_csv(analysis)
+
+    print(f'{comment.get("comment")}: {analysis}')
+
+    flag += 1
+
+    if flag > 220:
+        time.sleep(55)
+
+for i in range(len(polarity)):
+    comments[i]['polarity'] = polarity[i]
+
+with open('output.json', 'w') as file:
+    json.dump(comments, file, indent=4)
+
+df = pd.DataFrame(comments)
+df.to_csv('analysis_output.csv', index=False, encoding='utf-8')
+print("successfully converted .JSON file to .CSV file with comment polarity measurements")
+
