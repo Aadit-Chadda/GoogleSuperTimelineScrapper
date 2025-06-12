@@ -2,3 +2,4 @@ secret_pass.py
 *.log
 /build/
 *.env
+__pycache__/secret_pass.cpython-39.pyc
