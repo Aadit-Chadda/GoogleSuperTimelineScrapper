@@ -101,6 +101,7 @@ def parser(data, comments):
             "titles": titles[i],
             "urlis": urlis[i],
             "times": times[i],
+            "company": "BudLight"  # ToDo Name of the company added here. Can be changed from a case to case basis
         })
 
     return data
