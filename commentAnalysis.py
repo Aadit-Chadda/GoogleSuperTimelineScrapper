@@ -65,6 +65,7 @@ for comment in commentsData:
     if flag > 220:
         print("\nDowntime for 60 seconds...")
         time.sleep(55)
+        flag = 0
         print("Work resumed \n\n")
 
 for i in range(len(polarity)):
