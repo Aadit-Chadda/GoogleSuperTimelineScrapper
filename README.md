@@ -4,6 +4,7 @@
 **Repository URL:** https://github.com/Aadit-Chadda/GoogleSuperTimelineScrapper *(GitHub)*
 
 ##Post Collection
+
 **Objective:** Collect comments data from posts made after a transgression event that causes backlash online, and then data after the companies response to the backlash. 
 
 **Media:** Using ***TikTok*** comments as our base information. As it is the prominent open conversation platform, where people freely present their views not only through their posts but also their response to the posts (comments).
@@ -18,6 +19,7 @@ Using ***selenium*** to retrieve post links from the first 5 pages of the google
 
 
 ##Comment Collection
+
 **Objective:** Collect all the first level comments from every TikTok posts that were collected in the first phase of the program. 
 
 **Media:** Using the native TikTok App – comments – API to collect comments data from the TikTok posts. 
@@ -50,6 +52,7 @@ The structure of the file looks like:
 ```
 
 ##Comment Analysis
+
 **Objective:** Conduct a comprehensive sentimental analysis on the comments which were harvested in the step before to analyze their polarity with respect to the company under scrutiny. 
 
 **Example:**
