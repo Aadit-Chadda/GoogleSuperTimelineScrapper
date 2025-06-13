@@ -11,7 +11,9 @@
 
 **Method:** Using google search to get a list of most relevant posts ranked in the time period required. The google search engineered input looks like this:
 
-*site:tiktok.com "#budlight" after:2023-04-01 before:2023-04-14*
+```
+site:tiktok.com "#budlight" after:2023-04-01 before:2023-04-14
+```
 
 Using ***selenium*** to retrieve post links from the first 5 pages of the google search. We stop after 5 pages, because our TikTok API on average can bulk comments from 20-50 videos at a time, and feeding in more data causes the program to crash. Also since Google search is ranked and pretty advanced, also our search engineering is inherently neutral to the topic at hand, we can get accurate snippet of the global online environment of the timeframe we wish to capture. 
 
