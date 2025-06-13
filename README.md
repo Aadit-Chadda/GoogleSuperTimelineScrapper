@@ -50,7 +50,7 @@ The structure of the file looks like:
         "title": "#buschlight",
         "url": "https://www.tiktok.com/@chelsea_swatek/video/7218347888634531115",
         "datetime": "2019-08-07 00:00:00" 
-    },
+},
 ```
 
 ## Comment Analysis
