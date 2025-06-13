@@ -3,7 +3,6 @@
 
 **Repository URL:** https://github.com/Aadit-Chadda/GoogleSuperTimelineScrapper *(GitHub)*
 
----
 ## Post Collection
 
 **Objective:** Collect comments data from posts made after a transgression event that causes backlash online, and then data after the companies response to the backlash. 
