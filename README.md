@@ -1,9 +1,9 @@
-#Documenting processes for sentimental analyzes of comments to understand corporate outrage responses
+# Documenting processes for sentimental analyzes of comments to understand corporate outrage responses
 ### *- Aadit Chadda (Trent University)*
 
 **Repository URL:** https://github.com/Aadit-Chadda/GoogleSuperTimelineScrapper *(GitHub)*
 
-##Post Collection
+## Post Collection
 
 **Objective:** Collect comments data from posts made after a transgression event that causes backlash online, and then data after the companies response to the backlash. 
 
@@ -18,7 +18,7 @@ Using ***selenium*** to retrieve post links from the first 5 pages of the google
 **Output:** In the end we are presented with a list of about 50 TikTok posts, which is then feeded into our comments processing system . 
 
 
-##Comment Collection
+## Comment Collection
 
 **Objective:** Collect all the first level comments from every TikTok posts that were collected in the first phase of the program. 
 
@@ -51,7 +51,7 @@ The structure of the file looks like:
     },
 ```
 
-##Comment Analysis
+## Comment Analysis
 
 **Objective:** Conduct a comprehensive sentimental analysis on the comments which were harvested in the step before to analyze their polarity with respect to the company under scrutiny. 
 
