@@ -1,5 +1,5 @@
-# Getting a list of all the links from a platform (Instagram) on a certain topic between a certain timeframe'
-# Use google search engineering tools to find links (Instagram posts)
+# Getting a list of all the links from a platform (TikTok) on a certain topic between a certain timeframe'
+# Use google search engineering tools to find links (TikTok posts)
 # Use selenium (Head automation browser) to get the top 200 links
 
 # importing selenium and all its liabilities
