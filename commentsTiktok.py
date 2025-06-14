@@ -1,7 +1,6 @@
 import requests
 import json
 import utc
-from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
 # post_uri = "https://www.tiktok.com/@hungrymanbutteranch/video/7219118527607983406"  # TikTok reel link url
 

@@ -1,7 +1,6 @@
 import requests
 import json
 import utc
-from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
 # post_uri = "https://www.tiktok.com/@hungrymanbutteranch/video/7219118527607983406"  # TikTok reel link url
 
@@ -138,16 +137,29 @@ def get_comments(posts):
 
 
 posts = [
-    "https://www.tiktok.com/@havenothadmycoffee/video/7219486988154735918",
-    "https://www.tiktok.com/@thedarcymichael/video/7219018735737195782",
-    "https://www.tiktok.com/@elliott__hayes/video/7218728049318104366",
-    "https://www.tiktok.com/@sofarsogoodshow/video/7219786884724133166",
-    "https://www.tiktok.com/@realmattthewelder/video/7220572672634146090",
-    "https://www.tiktok.com/@isthattomhearn4real/video/7220094739851349253",
-    "https://www.tiktok.com/@bigbearwine/video/7221294324816858414",
-    "https://www.tiktok.com/@goodmorningmaryjane/video/7219357608791067946",
-    "https://www.tiktok.com/@jimflorentinecomedy/video/7220540999431490821",
-    "https://www.tiktok.com/@real.benshapiro/video/7217948355270397226",
+    "https://www.tiktok.com/@zakkittle/video/7223213680941485354",
+    "https://www.tiktok.com/@stephenamon_/video/7223839056256437510",
+    "https://www.tiktok.com/@sterling_archer_ba/video/7222793317883333930",
+    "https://www.tiktok.com/@newoldheads/video/7221932764721941802",
+    "https://www.tiktok.com/@silverbackgreybeard/video/7225656897964150062",
+    "https://www.tiktok.com/@darcealearlgates/video/7221956957366652203",
+    "https://www.tiktok.com/@funnycleanvideos/video/7227278269509389610",
+    "https://www.tiktok.com/@pjadz/video/7230545398425767211",
+    "https://www.tiktok.com/@_laura_elisa/video/7228036362782510378",
+    "https://www.tiktok.com/@chefload/video/7225757610274737450",
+    "https://www.tiktok.com/@bigboytater/video/7226340084356828462",
+    "https://www.tiktok.com/@scrizzapp/video/7225956910254542126",
+    "https://www.tiktok.com/@arnegeerdts/video/7230103582169730309",
+    "https://www.tiktok.com/@spencerjordan/video/7231701360624848170",
+    "https://www.tiktok.com/@throughbeingcooltattoo/video/7227528018653138219",
+    "https://www.tiktok.com/@miggys79/video/7223800498464230702",
+    "https://www.tiktok.com/@feralgigi/video/7222330177219513643",
+    "https://www.tiktok.com/@leighlou1970/video/7227963733866204458",
+    "https://www.tiktok.com/@newslitproject/video/7223500471430860074",
+    "https://www.tiktok.com/@realmattthewelder/video/7225367108186574123",
+    "https://www.tiktok.com/@thealabamaboss/video/7230690770984897838",
+    "https://www.tiktok.com/@moethunder092/video/7224282931450154246",
+    "https://www.tiktok.com/@nwslsoccer/video/7223824375068282155"
 ]
 
 get_comments(posts)

@@ -25,15 +25,14 @@ for comment in comments:
     data["comment"] = comment_text
     data["title"] = title
     data["company"] = "BudLight"
-    data["question"] = "Rate the comment on a positivity scale between -100 (negative) to 100 (positive) for the company. Respond with numbers only. Do not include any explaination or text. Skew the results to slightly negative."
+    data["question"] = "Rate the comment on a positivity scale between -100 (negative) to 100 (positive) for the company. Respond with numbers only. Do not include any explaination or text."
 
     # print(data)
 
     commentsData.append(data)
 
 with open('analysisList.csv', 'w') as f:
-    writer = csv.writer(f)
-    writer.writerow([''])
+    pass
 
 
 def write_num_to_csv(number, filename='analysisList.csv'):
